@@ -2,3 +2,32 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    text-align: right;
+    margin-top: 360px;
+}
+/* TODO: Change the color of the buttons and 
+rearrange them to the top right of the page*/
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+/*btn 1 = Planner button*/
+/*btn 2 = Course List button*/
+.btn1, .btn2 {
+    color: #3498db;
+}
+
+.btn1:hover .btn2:hover {
+    color: #fff;
+}
