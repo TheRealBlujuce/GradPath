@@ -1,11 +1,15 @@
-h1 {
+.title {
     text-align: center;
     color: rgb(0, 99, 65);
 }
 
-h2 {
+.coursesOffered {
     text-align: center;
     color: rgb(0, 150, 98);
+}
+
+.classes {
+    text-align: center;
 }
 
 body {
@@ -17,6 +21,7 @@ body {
     text-align: right;
     margin-top: 360px;
 }
+
 /* TODO: Change the color of the buttons and 
 rearrange them to the top right of the page*/
 .btn {
@@ -40,4 +45,11 @@ rearrange them to the top right of the page*/
 
 .btn1:hover .btn2:hover {
     color: #fff;
+}
+
+/* TODO: Move the filter button right of
+ "Courses Offered" title*/
+ /*btn 3 = Filter button*/
+.btn3 {
+    margin: 10px;
 }
