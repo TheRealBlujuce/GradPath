@@ -40,8 +40,11 @@ body {
 }
 
 .container {
+    position: fixed;
+    right:0;
+    top:0;
     text-align: right;
-    margin-top: 360px;
+    /*margin-top: 360px;*/
 }
 
 /* TODO: Change the color of the buttons and 
