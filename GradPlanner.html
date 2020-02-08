@@ -1,0 +1,53 @@
+<!-- GRAD PLAN PAGE ONLY -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Bootstrap Import-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!--CSS sheet for Course List Page-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--jQuery required Import for bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--Other 2 imports for bootstrap that I don't know if they are required, but just in case I'm putting them here anyway-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!--Angular Import-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+
+<body>
+    <div class="text-center p-4">
+        <h2>LDS Business College Grad Path</h2>
+    </div>
+          
+    <div class="inner">
+        <button type="button" (click)= 'animateMe()' class="btn p-2 m-2"><h4>Winter Semester 2020 +</h4></button>
+        <p [@checkclasses] = 'state'>CS-235 Data Structures</p>
+        <p [@checkclasses] = 'state'>CS-115 Intro to Object Oriented Programming</p>
+    </div>
+          
+    <div class="inner">
+        <button type="button" (click)= 'animateMe2()' class="btn p-2 m-2"><h4>Spring Semester 2020 +</h4></button>
+        <p [@checkclasses2] = 'state'>CS-235 Data Structures</p>
+        <p [@checkclasses2] = 'state'>CS-115 Intro to Object Oriented Programming</p>
+    </div>
+          
+    <div class="inner">
+        <button type="button" (click)= 'animateMe3()' class="btn p-2 m-2"><h4>Fall Semester 2020 +</h4></button>
+        <p [@checkclasses3] = 'state'>CS-235 Data Structures</p>
+        <p [@checkclasses3] = 'state'>CS-115 Intro to Object Oriented Programming</p>
+    </div>
+            
+    <div class="inner">
+        <button type="button" (click)= 'animateMe4()' class="btn p-2 m-2"><h4>Winter Semester 2021 +</h4></button>
+        <p [@checkclasses4] = 'state'>CS-235 Data Structures</p>
+        <p [@checkclasses4] = 'state'>CS-115 Intro to Object Oriented Programming</p>
+    </div>
+</body>
+</html>
