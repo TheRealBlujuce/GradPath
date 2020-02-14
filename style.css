@@ -8,21 +8,33 @@ h2 {
     color: rgb(0, 150, 98);
 }
 
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
 a:link, a:visited {
     background-color: rgb(0, 99, 65);
     color: white;
-    padding: 14px 25px;
-    text-decoration: none;
+    padding: 9px 25px;
     display: inline-block;
+    border-radius: 10px;
 }
 
 a:hover, a:active {
     background-color: rgb(0, 150, 98);
+    text-decoration: none;
 }
 
 .title {
     padding-top: 50px;
     padding-bottom: 25px;
+}
+
+.planTitle {
+    border-bottom: solid;
+    margin-left: 10px;
+    margin-right: 300px;
 }
 
 .buttonList {
@@ -44,7 +56,7 @@ body {
     right:0;
     top:0;
     text-align: right;
-    /*margin-top: 360px;*/
+    margin-top: 2px;
 }
 
 /* TODO: Change the color of the buttons and 
@@ -78,6 +90,11 @@ rearrange them to the top right of the page*/
  /*btn 3 = Filter button*/
 .btn3 {
     margin: 10px;
+}
+
+.btn-success {
+    background-color: rgb(0, 99, 65);
+    
 }
 
 /* From GradPlanner Page */
