@@ -35,6 +35,19 @@ a:hover, a:active {
     text-decoration: none;
 }
 
+/*Code to style the log-in page title*/
+.title {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+/*Code to style the title in the GradPlanner page*/
+.planTitle {
+    border-bottom: solid;
+    margin-left: 10px;
+    margin-right: 300px;
+}
+
 .buttonList {
     padding: 25px 25px;
     text-align: center;
