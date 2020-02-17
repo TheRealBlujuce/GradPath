@@ -13,6 +13,10 @@ h2 {
     padding-bottom: 7px;
 }
 
+.semesters {
+    text-align: center;
+}
+
 a {
     font-weight: bold;
     font-size: 1.25em;
