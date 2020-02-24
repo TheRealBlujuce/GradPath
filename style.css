@@ -39,23 +39,18 @@ a:hover, a:active {
     text-align: center;
 }
 
-.semesters > div {
-    width: 100px;
-    height: 100px;
-}
-
+/*
 .winter {
     float: left;
 }
 
 .spring {
     display: inline-block;
-    /*margin: 0 auto;*/
 }
 
 .fall {
     float: right;
-}
+}  */
 
 /*Code to style the log-in page title*/
 .title {
