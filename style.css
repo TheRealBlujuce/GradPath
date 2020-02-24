@@ -37,6 +37,8 @@ a:hover, a:active {
 /*TODO: put them side by side*/
 .semesters {
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /*
