@@ -84,14 +84,13 @@ body {
     transform: translate(0,-10px);
     position: absolute;
     font-weight: bold;
-    font-size: .70em;
+    font-size: 1.0em;
     background-color: rgb(0, 99, 65);
     color: white;
     padding: 5px 50px;
     display: inline-block;
     border-radius: 10px;
-    margin-left: 100%;
-    margin-right: 100%;
+
 }
 
 .btn3:hover, .btn3:active {
