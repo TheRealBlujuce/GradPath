@@ -9,10 +9,6 @@ h2 {
     color: rgb(0, 150, 98);
 }
 
-.semesters {
-    text-align: center;
-}
-
 a {
     font-weight: bold;
     font-size: 1.25em;
@@ -38,19 +34,6 @@ a:hover, a:active {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-/*
-.winter {
-    float: left;
-}
-
-.spring {
-    display: inline-block;
-}
-
-.fall {
-    float: right;
-}  */
 
 /*Code to style the log-in page title*/
 .title {
@@ -104,9 +87,11 @@ body {
     font-size: .70em;
     background-color: rgb(0, 99, 65);
     color: white;
-    padding: 3px 20px;
+    padding: 5px 50px;
     display: inline-block;
     border-radius: 10px;
+    margin-left: 100%;
+    margin-right: 100%;
 }
 
 .btn3:hover, .btn3:active {
@@ -114,6 +99,40 @@ body {
     background-color: rgb(0, 150, 98);
     text-decoration: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 99, 65);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    color: black;
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .btn3 {
+    background-color: #3e8e41;
+  }
 
 /* From GradPlanner Page */
 .inner { 
