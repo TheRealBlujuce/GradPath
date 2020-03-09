@@ -1,13 +1,22 @@
 import {NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
   MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTableModule,
   MatToolbarModule, MatMenuModule,MatIconModule, MatProgressSpinnerModule, MatAutocompleteModule, MatChipsModule,
-  MatFormFieldModule
+  MatFormFieldModule,
 } from '@angular/material';
 
 @NgModule({
   imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   CommonModule,
   MatToolbarModule,
   MatButtonModule,
@@ -23,6 +32,11 @@ import {
   MatFormFieldModule
   ],
   exports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   CommonModule,
    MatToolbarModule,
    MatButtonModule,

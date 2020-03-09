@@ -34,6 +34,16 @@
     
         </div>
       </div> -->
+
+      <div style="margin:auto; width: 70%; margin-top: 30px;">
+        <app-search-bar (onSelectedOption)="onSelectedOption($event)"></app-search-bar>
+      </div>
+      <h2 style="text-align:center">Data</h2>
+      <div *ngFor="let posts of post" class="group">
+        <p><b>Item :</b>{{posts.id}}</p>
+        <p><b>Title :</b> {{posts.title}}</p>
+        <p><b>Body: </b>{{posts.body}}</p>
+      </div>
       
 <div class="semesters">
     <p>Winter <img src="assets/img/blue.png" alt="blue circle" width="22" height="22">
