@@ -1,0 +1,17 @@
+mat-expansion-panel {
+  width: 80%;
+  margin: auto;
+}
+
+mat-expansion-panel-header {
+  height: 4rem;
+}
+
+mat-panel-title span {
+  font-size: 2rem;
+  margin: auto;
+}
+
+mat-card {
+  margin-top: 0.6rem;
+}
