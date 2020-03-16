@@ -15,3 +15,11 @@ mat-panel-title span {
 mat-card {
   margin-top: 0.6rem;
 }
+
+.taking {
+  background-color:#87ADFF;
+}
+
+.needing {
+  background-color: #5BFF9E;
+}

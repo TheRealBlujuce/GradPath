@@ -5,8 +5,8 @@
     <span class="align-center"></span>
     <span class="example-spacer"></span>
 
-    <button mat-button>About</button>
-    <button mat-button>Contact</button>
+    <!-- <button mat-button>About</button>
+    <button mat-button>Contact</button> -->
     <button mat-button routerLink="/app-login">Login</button>
     <button mat-button routerLink="/register">Register</button>
     <button mat-icon-button [matMenuTriggerFor]="menu">
@@ -15,15 +15,15 @@
 <mat-menu #menu="matMenu">
   <button mat-menu-item>
     <mat-icon>dialpad</mat-icon>
-    <span>Redial</span>
+    <span>About</span>
   </button>
   <button mat-menu-item disabled>
     <mat-icon>voicemail</mat-icon>
-    <span>Check voicemail</span>
+    <span>Contact</span>
   </button>
   <button mat-menu-item>
     <mat-icon>notifications_off</mat-icon>
-    <span>Disable alerts</span>
+    <span>FAQ</span>
   </button>
 </mat-menu>
 

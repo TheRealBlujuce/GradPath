@@ -3,15 +3,35 @@
 
     <mat-expansion-panel-header [collapsedHeight]="'100px'" [expandedHeight]="'100px'">
       <mat-panel-title>
+        <span>WINTER SEMESTER 2020 +</span>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <mat-card [ngClass]="{'taking':true}">
+      CS-105 Intro to Programming
+  </mat-card>
+  <mat-card [ngClass]="{'taking':true}">
+      CS-160 Agile Project Management
+  </mat-card>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<br>
+
+<mat-accordion>
+  <mat-expansion-panel>
+
+    <mat-expansion-panel-header [collapsedHeight]="'100px'" [expandedHeight]="'100px'">
+      <mat-panel-title>
         <span>SPRING SEMESTER 2020 +</span>
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-card>
-      CS-105 Intro to Programming
+    <mat-card [ngClass]="{'needing':true}">
+      CS-115 Intro to Object Oriented Programming
   </mat-card>
-  <mat-card>
-      IT-143 Structured Query Language(SQL)
+  <mat-card [ngClass]="{'needing':true}">
+      MAT-252 Statistics
   </mat-card>
   </mat-expansion-panel>
 </mat-accordion>
@@ -27,15 +47,10 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-card>
-      CS-115 Intro to Object Oriented Programming
+    <mat-card [ngClass]="{'needing':true}">
+      CS-115 Intro to Software Engineering
   </mat-card>
-  <mat-card>
-      CS-220 Web Programming
-  </mat-card>
-  <mat-card>
-      MAT-110 College Algebra
-  </mat-card>
+  
   </mat-expansion-panel>
 </mat-accordion>
 
@@ -50,9 +65,12 @@
       </mat-panel-title>
     </mat-expansion-panel-header>
 
-    <mat-card>
-      CS-235 Data Structures
+    <mat-card [ngClass]="{'needing':true}">
+      CS-276 Windows Web Development
   </mat-card>
+  <mat-card [ngClass]="{'needing':true}">
+    CS-278 Mobile Development
+</mat-card>
 
   </mat-expansion-panel>
 </mat-accordion>
